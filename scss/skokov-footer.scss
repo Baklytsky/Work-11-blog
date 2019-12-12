@@ -1,0 +1,162 @@
+@import "mixins";
+@import "variables";
+.footer {
+  background-color: $color;
+  .footer-headline {
+    @include footer-headline;
+  }
+  .footer-text {
+    @include footer-text;
+  }
+  .footer-btn {
+    @include btn;
+    transition: all .3s linear;
+
+    &:hover {
+      color: $yellow;
+      border-bottom: 2px solid $yellow;
+    }
+  }
+  .photo-stream {
+    padding: 1%;
+  }
+  .footer-center {
+    overflow: hidden;
+  }
+  ul .twitter-list {
+    &:before {
+      content: "";
+      background-image: url("../img/twitter-icon.png");
+      background-repeat: no-repeat;
+      width: 25px;
+      height: 25px;
+      display: block;
+      padding-right: 40px;
+      margin-top: 10px;
+    }
+    .twitter-link {
+      @include twitter-link;
+    }
+    .twitter {
+      text-decoration: none;
+      color: $white;
+    }
+    .days-ago {
+      @include twitter-link;
+      font-size: $extra-small;
+    }
+  }
+  .icon-style {
+    @include icon-style;
+  }
+  .footer-facebook {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $facebook;
+    }
+  }
+  .footer-google {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $google;
+    }
+  }
+  .footer-twitter {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $twitter;
+    }
+  }
+  .footer-linkedin {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $linkedin;
+    }
+  }
+  .footer-youtube {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $youtube;
+    }
+  }
+  .footer-blogger {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $blogger;
+    }
+  }
+  .footer-rss {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $green;
+    }
+  }
+  .footer-web {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $yellow;
+    }
+  }
+
+  .address-list {
+    &:before {
+      content: "";
+      background-image: url("../img/adress.png");
+      @include list-icon;
+    }
+  }
+  .phone-list {
+    &:before {
+      content: "";
+      background-image: url("../img/phone.png");
+      @include list-icon;
+    }
+  }
+  .mail-list {
+    &:before {
+      content: "";
+      background-image: url("../img/email.png");
+      @include list-icon;
+    }
+  }
+  .mail-link {
+    @include twitter-link;
+  }
+  .form-style {
+    @include form-style;
+  }
+  .follow-btn {
+    border: none;
+    background-color: $black;
+    padding: 0;
+    &:active, &:focus {
+      outline: none;
+    }
+    .icon-input {
+      font-size: 1.2em;
+      color: $white;
+      padding: 5px 5px 0 5px;
+      background-color: $black;
+    }
+  }
+  .footer-menu {
+    background-color: $black;
+    padding: 10px 0;
+    .footer-menu-title {
+      @include footer-text;
+      a {
+        color: $white;
+      }
+    }
+    .footer-nav {
+      padding: 5% 0;
+      a {
+        color: $white;
+        font-size: $smaller;
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+}

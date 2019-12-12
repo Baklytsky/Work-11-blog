@@ -1,0 +1,87 @@
+aside .sidebar-item {
+  background-color: #424146;
+  padding: 30px 10px 20px 30px;
+  margin-bottom: 5%; }
+  aside .sidebar-item .tags-list {
+    display: inline-block;
+    margin: 2px 0; }
+aside .sidebar-title {
+  font-size: 1em;
+  font-weight: 600;
+  color: #FFEA00;
+  padding-bottom: 5%; }
+aside ul .arrow-list {
+  margin-bottom: 10px; }
+  aside ul .arrow-list:before {
+    content: url("../img/img-project/arrow.png");
+    display: flex;
+    align-items: center;
+    margin-right: 10px; }
+  aside ul .arrow-list a {
+    font-size: 0.7em;
+    color: #FFF;
+    text-decoration: none;
+    padding: 7px 0;
+    transition: color .3s linear; }
+    aside ul .arrow-list a:hover {
+      color: #FFEA00; }
+    aside ul .arrow-list a li {
+      display: inline; }
+aside ul a {
+  font-size: 0.7em;
+  color: #FFF;
+  text-decoration: none;
+  transition: color .3s linear; }
+  aside ul a:hover {
+    color: #FFEA00; }
+aside ul .like-text {
+  font-size: 0.7em;
+  color: #FFEA00; }
+  aside ul .like-text a {
+    opacity: 0.2;
+    transition: all .3s linear; }
+    aside ul .like-text a:hover {
+      opacity: 1; }
+aside ul li {
+  margin-bottom: 10px; }
+aside ul .post-size {
+  max-width: 335px; }
+aside ul .image-list-post-one:before {
+  content: url("../img/img-project/popular_post_img_1.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+aside ul .image-list-post-two:before {
+  content: url("../img/img-project/popular_post_img_2.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+aside ul .image-list-post-three:before {
+  content: url("../img/img-project/popular_post_img_3.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+aside ul .image-list-post-four:before {
+  content: url("../img/img-project/popular_post_img_4.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+aside ul .image-list-post-five:before {
+  content: url("../img/img-project/popular_post_img_5.png");
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+aside ul .tags-style {
+  background-color: #FFEA00;
+  transition: color .3s linear; }
+  aside ul .tags-style:hover {
+    background-color: #000; }
+  aside ul .tags-style a {
+    color: #424146;
+    font-size: 0.7em;
+    padding: 2px 10px;
+    transition: color .3s linear; }
+    aside ul .tags-style a:hover {
+      color: #FFEA00; }
+
+/*# sourceMappingURL=skokov-sidebar.css.map */
