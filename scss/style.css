@@ -399,7 +399,8 @@
       .blog .blog-headline .quote-link:hover {
         color: #DD4B39; }
   .blog .grid .grid-sizer, .blog .grid .grid-item {
-    width: 100%; }
+    width: 100%;
+    border-bottom: 15px solid #F6F6F6; }
   .blog .grid .gutter-sizer {
     width: 0; }
   .blog .grid .grid-item {
@@ -441,5 +442,16 @@
     .blog .news .footer-card-text {
       font-size: 0.5em;
       font-weight: 700; }
+  .blog .page-style {
+    font-size: 0.7em;
+    font-weight: 700;
+    color: #000;
+    padding: 5px;
+    background-color: #F6F6F6;
+    transition: all .3s linear; }
+    .blog .page-style:hover {
+      background-color: #FFEA00; }
+  .blog .active-link {
+    background-color: #FFEA00; }
 
 /*# sourceMappingURL=style.css.map */

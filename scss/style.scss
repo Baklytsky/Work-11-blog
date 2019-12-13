@@ -479,6 +479,7 @@
   .grid {
     .grid-sizer, .grid-item {
       width: 100%;
+      border-bottom: 15px solid $cream;
     }
     .gutter-sizer {
       width: 0;
@@ -535,6 +536,20 @@
       font-size: $footer;
       font-weight: 700;
     }
+  }
+  .page-style {
+    font-size: $smaller;
+    font-weight: 700;
+    color: $black;
+    padding: 5px;
+    background-color: $cream;
+    transition: all .3s linear;
+    &:hover {
+      background-color: $yellow;
+    }
+  }
+  .active-link {
+    background-color: $yellow;
   }
 }
 

@@ -214,6 +214,11 @@
   .blog .news .card-heart {
     font-size: 0.7em; }
   .blog .news .footer-card-text {
-    font-size: 0.7em; } }
+    font-size: 0.7em; }
+  .blog .grid .grid-sizer, .blog .grid .grid-item {
+    border-bottom: 30px solid #F6F6F6; }
+  .blog .page-style {
+    font-size: 1.2em;
+    padding: 5px 10px; } }
 
 /*# sourceMappingURL=skokov-breakpoints.css.map */

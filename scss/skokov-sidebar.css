@@ -45,7 +45,7 @@ aside ul .like-text {
 aside ul li {
   margin-bottom: 10px; }
 aside ul .post-size {
-  max-width: 335px; }
+  max-width: 325px; }
 aside ul .image-list-post-one:before {
   content: url("../img/img-project/popular_post_img_1.png");
   display: flex;

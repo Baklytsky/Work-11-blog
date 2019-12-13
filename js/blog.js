@@ -4,3 +4,4 @@ $('.grid').masonry({
     gutter: '.gutter-sizer',
     percentPosition: true
 });
+
