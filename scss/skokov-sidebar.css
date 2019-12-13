@@ -5,6 +5,31 @@ aside .sidebar-item {
   aside .sidebar-item .tags-list {
     display: inline-block;
     margin: 2px 0; }
+  aside .sidebar-item .left-column-list {
+    padding-right: 20px; }
+aside .sidebar-item-form {
+  background-color: #424146;
+  padding: 30px;
+  margin-bottom: 5%; }
+  aside .sidebar-item-form form .search-place, aside .sidebar-item-form form .search-btn {
+    height: 28px;
+    border: 1px solid #F6F6F6;
+    outline: none;
+    background-color: #F6F6F6; }
+  aside .sidebar-item-form form .search-place {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding-left: 30px; }
+  aside .sidebar-item-form form .search-btn {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding-right: 30px; }
+    aside .sidebar-item-form form .search-btn:before {
+      content: "\57";
+      font-family: untitled-font-1;
+      font-size: 25px;
+      color: #757575; }
 aside .sidebar-title {
   font-size: 1em;
   font-weight: 600;

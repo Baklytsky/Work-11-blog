@@ -5,9 +5,43 @@ aside {
     background-color: $color;
     padding: 30px 10px 20px 30px;
     margin-bottom: 5%;
+
     .tags-list {
       display: inline-block;
       margin: 2px 0;
+    }
+    .left-column-list {
+      padding-right: 20px;
+    }
+  }
+  .sidebar-item-form {
+    background-color: $color;
+    padding: 30px;
+    margin-bottom: 5%;
+    form {
+      .search-place, .search-btn {
+        height: 28px;
+        border: 1px solid $cream;
+        outline: none;
+        background-color: $cream;
+      }
+      .search-place {
+        width: 100%;
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        padding-left: 30px;
+      }
+      .search-btn {
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+        padding-right: 30px;
+        &:before {
+          content: "\57";
+          font-family: untitled-font-1;
+          font-size: 25px;
+          color: $grey;
+        }
+      }
     }
   }
 
