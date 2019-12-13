@@ -195,16 +195,6 @@
   .portfolio .filters .btn-filter {
     font-size: 1.5em; }
 
-  aside ul a {
-    font-size: 1em; }
-  aside ul .arrow-list a {
-    font-size: 1em;
-    padding: 3px 0; }
-  aside ul .tags-style {
-    background-color: #FFEA00; }
-    aside ul .tags-style a {
-      font-size: 1em; }
-
   .blog .blog-headline {
     font-size: 1.5em; }
   .blog .news .news-headline {
@@ -220,5 +210,17 @@
   .blog .page-style {
     font-size: 1.2em;
     padding: 5px 10px; } }
+@media (min-width: 1600px) {
+  aside .sidebar-item .left-column-list {
+    padding-right: 40px; }
+  aside ul a {
+    font-size: 1em; }
+  aside ul .arrow-list a {
+    font-size: 1em;
+    padding: 3px 0; }
+  aside ul .tags-style {
+    background-color: #FFEA00; }
+    aside ul .tags-style a {
+      font-size: 1em; } }
 
 /*# sourceMappingURL=skokov-breakpoints.css.map */

@@ -330,26 +330,7 @@
       }
     }
   }
-  aside {
-    ul {
-      a {
-        font-size: $small;
-      }
 
-      .arrow-list a {
-        font-size: $small;
-        padding: 3px 0;
-      }
-
-      .tags-style {
-        background-color: $yellow;
-
-        a {
-          font-size: $small;
-        }
-      }
-    }
-  }
   .blog {
     .blog-headline {
       font-size: $big;
@@ -380,3 +361,30 @@
   }
 }
 
+@media (min-width: 1600px) {
+  aside {
+    .sidebar-item {
+      .left-column-list {
+        padding-right: 40px;
+      }
+    }
+    ul {
+      a {
+        font-size: $small;
+      }
+
+      .arrow-list a {
+        font-size: $small;
+        padding: 3px 0;
+      }
+
+      .tags-style {
+        background-color: $yellow;
+
+        a {
+          font-size: $small;
+        }
+      }
+    }
+  }
+}
