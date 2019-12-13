@@ -25,5 +25,13 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baklytsky/Work-11-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Baklytsky/Work-11-blog/issues"
+  },
+  "homepage": "https://github.com/Baklytsky/Work-11-blog#readme",
   "description": ""
 }

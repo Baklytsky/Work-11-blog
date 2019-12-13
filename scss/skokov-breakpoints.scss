@@ -368,6 +368,15 @@
         font-size: $smaller;
       }
     }
+    .grid {
+      .grid-sizer, .grid-item {
+        border-bottom: 30px solid $cream;
+      }
+    }
+    .page-style {
+      font-size: $normal;
+      padding: 5px 10px;
+    }
   }
 }
 
